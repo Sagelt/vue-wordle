@@ -15,7 +15,8 @@ export function getWordOfTheDay(day: number) {
 }
 
 // copied from Wordle source
-const answers = [  'abode',
+const answers = [  
+  'abode',
   'about',
   'above',
   'adapt',
