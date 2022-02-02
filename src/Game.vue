@@ -176,11 +176,11 @@ function genResultGrid() {
     <div class="message" v-if="message">
       {{ message }}
       <pre v-if="grid">{{ grid }}</pre>
-      Lordle of the Rings #{{ dayNumber }}
+      Worldes and Wizards #{{ dayNumber }}
     </div>
   </Transition>
   <header>
-    <h1>LORDLE OF THE RINGS</h1>
+    <h1>WORDLES &amp; WIZARDS</h1>
   </header>
   <div id="board">
     <div
@@ -205,8 +205,7 @@ function genResultGrid() {
   </div>
   <Keyboard @key="onKey" :letter-states="letterStates" />
   <div>
-    Use only five-letter words (including names)
-    <br/>in the main text of Lord of the Rings.
+    Use only five-letter words in the <a href="https://dnd.wizards.com/articles/features/systems-reference-document-srd">5E D&D SRD</a>.
     <br/>Built on <a
       href="https://github.com/yyx990803/vue-wordle"
       target="_blank"
