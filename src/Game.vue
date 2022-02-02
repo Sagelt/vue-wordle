@@ -216,6 +216,8 @@ function genResultGrid() {
       target="_blank"
       >WORDLE</a
     >.
+    <br/>
+    View source on <a href="https://github.com/Sagelt/wordles-and-wizards/">GitHub</a>.
   </div>
 </template>
 
