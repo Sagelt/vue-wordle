@@ -218,6 +218,8 @@ function genResultGrid() {
     >.
     <br/>
     View source on <a href="https://github.com/Sagelt/wordles-and-wizards/">GitHub</a>.
+    <br/>
+    Created by <a href="https://svirfnebl.in/">Sage LaTorra.</a>
   </div>
 </template>
 
